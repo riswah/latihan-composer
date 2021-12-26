@@ -1,0 +1,19 @@
+{
+    "name": "latihan-composer/membuat-library",
+    "description": "Membuat library",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "MembuatLibrary\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "riswah",
+            "email": "yudiriswah46@gmail.com"
+        }
+    ],
+    "require": {
+        "php" : ">=8.0"
+    }
+}
